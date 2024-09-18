@@ -1,18 +1,27 @@
 import Image from "next/image";
-import tshirt from "/public/images/t-shirt.png";
 import {
   StarFilled,
   StarOutlined,
   MinusSquareOutlined,
 } from "@ant-design/icons";
 import { Button, Flex } from "antd";
+import products from "../../../utils/tshirts.json";
 
-export default function Page() {
+const getProduct = async (id) => {
+  console.log(products);
+  const product = products.find((product) => product.id === Number(id));
+  return product;
+};
+
+const Page = async ({ params }) => {
+  const id = params.id;
+  const productDetail = await getProduct(id);
+
   return (
     <div className="grid grid-cols-4 mt-16  ml-20 mr-20 mb-14">
       <div className="col-span-2 border border-blue-500">
         <Image
-          src={tshirt}
+          src={productDetail?.imageSrc}
           alt="T-Shirt"
           width={400}
           height={400}
@@ -22,7 +31,9 @@ export default function Page() {
       </div>
       <div className="col-span-2 ml-7 mt-7">
         <p className="text-[#2563EB] mb-1">text</p>
-        <p className="text-[#1D4ED8] font-semibold text-2xl mb-2">T-shirt 1</p>
+        <p className="text-[#1D4ED8] font-semibold text-2xl mb-2">
+          {productDetail?.tShirtNo}
+        </p>
         <p className="text-[#2563EB] font-medium text-lg mb-6">$190</p>
         <div className="flex gap-5 mb-10">
           <p className="text-[#2563EB] font-normal">4.5/5</p>
@@ -72,4 +83,6 @@ export default function Page() {
       </div>
     </div>
   );
-}
+};
+
+export default Page;

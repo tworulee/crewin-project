@@ -1,11 +1,14 @@
+"use client"
 import { Card } from "antd";
 import Image from "next/image";
-// import tShirtImage from '../images/t-shirt.png';
+import { useRouter } from 'next/navigation'
 
 export default function MainCard({tshirt}) {
+    const router = useRouter()
   return (
     <Card
-     className="border-transparent"
+    onClick={()=>router.push(`/product/${tshirt?.id}`)}
+     className="border-transparent cursor-pointer"
       style={{
         width: 300,
       }}
