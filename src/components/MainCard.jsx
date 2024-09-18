@@ -7,9 +7,9 @@ export default function MainCard({tshirt}) {
     <Card
      className="border-transparent"
       style={{
-        width: 264,
+        width: 300,
       }}
-      cover={<Image layout="fill"  alt="example" src={tshirt.imageSrc} />}
+      cover={<Image width={300} height={300} alt="example" src={tshirt.imageSrc} />}
     >
       <p className="text-[#2563EB] text-base font-semibold mb-2  ">{tshirt.tShirtNo}</p>
       <p className="text-[#2563EB] text-sm font-normal ">

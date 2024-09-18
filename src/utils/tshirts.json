@@ -1,37 +1,37 @@
 [
   {
     "id": 1,
-    "imageSrc": "/public/images/t-shirt.png",
+    "imageSrc": "/images/t-shirt.png",
     "tShirtNo": "T-Shirt 1",
     "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
   {
     "id": 2,
-    "imageSrc": "/public/images/t-shirt.png",
+    "imageSrc": "/images/t-shirt.png",
     "tShirtNo": "T-Shirt 2",
     "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
   {
     "id": 3,
-    "imageSrc": "/public/images/t-shirt.png",
+    "imageSrc": "/images/t-shirt.png",
     "tShirtNo": "T-Shirt 3",
     "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
   {
     "id": 4,
-    "imageSrc": "/public/images/t-shirt.png",
+    "imageSrc": "/images/t-shirt.png",
     "tShirtNo": "T-Shirt 4",
     "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
   {
     "id": 5,
-    "imageSrc": "/public/images/t-shirt.png",
+    "imageSrc": "/images/t-shirt.png",
     "tShirtNo": "T-Shirt 5",
     "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
   {
     "id": 6,
-    "imageSrc": "/public/images/t-shirt.png",
+    "imageSrc": "/images/t-shirt.png",
     "tShirtNo": "T-Shirt 6",
     "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   }
