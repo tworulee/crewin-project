@@ -7,12 +7,12 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   color: var(--foreground);
@@ -24,4 +24,7 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+.ant-input::placeholder {
+  color: #1D4ED8; /* Placeholder rengi */
 }
