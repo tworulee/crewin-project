@@ -3,36 +3,54 @@
     "id": 1,
     "imageSrc": "/images/t-shirt.png",
     "tShirtNo": "T-Shirt 1",
-    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "about": "Lorem ipsum dolor sit amet.",
+    "price":"$190",
+    "rate":3.5
+   
   },
   {
     "id": 2,
     "imageSrc": "/images/t-shirt.png",
     "tShirtNo": "T-Shirt 2",
-    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "about": "Lorem ipsum dolor sit amet.",
+    "price":"$100",
+    "rate":4.5
+    
   },
   {
     "id": 3,
     "imageSrc": "/images/t-shirt.png",
     "tShirtNo": "T-Shirt 3",
-    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "about": "Lorem ipsum dolor sit amet.",
+    "price":"$140",
+    "rate":2.5
+    
   },
   {
     "id": 4,
     "imageSrc": "/images/t-shirt.png",
     "tShirtNo": "T-Shirt 4",
-    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "about": "Lorem ipsum dolor sit amet.",
+    "price":"$150",
+    "rate":3
+    
   },
   {
     "id": 5,
     "imageSrc": "/images/t-shirt.png",
     "tShirtNo": "T-Shirt 5",
-    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "about": "Lorem ipsum dolor sit amet.",
+    "price":"$2000",
+    "rate":3.5
+    
   },
   {
     "id": 6,
     "imageSrc": "/images/t-shirt.png",
     "tShirtNo": "T-Shirt 6",
-    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "about": "Lorem ipsum dolor sit amet.",
+    "price":"$390",
+    "rate":0.5
+    
   }
 ]

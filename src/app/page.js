@@ -4,7 +4,7 @@ import tshirts from "../utils/tshirts.json";
 export default function Home() {
   const clothes = ["T-shirts", "Jeans", "Seat"];
   return (
-    <div className="grid grid-cols-4  ml-20 mr-20">
+    <div className="grid grid-cols-4 mt-10 ml-20 mr-20">
       <div className="col-span-1 ">
         {clothes.map((cl) => (
           <p className="text-[#2563EB] font-normal pb-5" key={cl}>

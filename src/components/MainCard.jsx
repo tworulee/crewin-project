@@ -14,7 +14,7 @@ export default function MainCard({tshirt}) {
       }}
       cover={<Image width={300} height={300} alt="example" src={tshirt.imageSrc} />}
     >
-      <p className="text-[#2563EB] text-base font-semibold mb-2  ">{tshirt.tShirtNo}</p>
+      <p className="text-[#2563EB] text-base font-bold mb-2  ">{tshirt.tShirtNo}</p>
       <p className="text-[#2563EB] text-sm font-normal ">
        {tshirt.about}
       </p>
